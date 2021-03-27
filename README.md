@@ -16,5 +16,6 @@ wttr_script.timer and wttr_script.service
 2.Copy the files into your /etc/systemd/system directory -`sudo cp wttr_script.service /etc/systemd/system/wttr_script.service` and `sudo cp wttr_script.timer /etc/systemd/system/wttr_script.timer`
 3.Reload system daemons - `sudo systemctl daemon-reload`
 4.Enable timer to run on boot - `sudo systemctl enable --now wttr_script.timer`
+
 ---
 Congratulations, your service is now installed!
