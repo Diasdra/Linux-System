@@ -1,0 +1,11 @@
+[Unit]
+Description=timer for weather service
+
+[Timer]
+Unit=wttr_script.service
+OnBootSec=30s
+OnUnitActiveSec=60min
+
+[Install]
+WantedBy=timers.target
+

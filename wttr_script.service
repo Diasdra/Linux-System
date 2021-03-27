@@ -1,0 +1,11 @@
+[Unit]
+Description=Weather service
+
+[Service]
+Type=simple
+ExecStart=/home/vagrant/bin/wttr_script
+WorkingDirectory=/home/vagrant/bin
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
