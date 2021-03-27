@@ -12,7 +12,7 @@ wttr_script
 
 wttr_script.timer and wttr_script.service
 
-1.Save wttr_script.timer and wttr_script.service inside `$HOME` directory
+1.Save wttr_script.timer and wttr_script.service inside `$HOME` directory 
 2.Copy the files into your /etc/systemd/system directory -`sudo cp wttr_script.service /etc/systemd/system/wttr_script.service` and `sudo cp wttr_script.timer /etc/systemd/system/wttr_script.timer`
 3.Reload system daemons - `sudo systemctl daemon-reload`
 4.Enable timer to run on boot - `sudo systemctl enable --now wttr_script.timer`
